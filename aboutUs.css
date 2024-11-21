@@ -1,0 +1,83 @@
+* {padding: 0;margin: 0;font-family: Arial, Helvetica, sans-serif;}
+
+.top {width: 1200px;margin: auto;padding-top: 50px;height: 30px;}
+.logo {float: left;width: 300px;}
+.top .logo a {font-size: 30px;text-decoration: none;color: black;}
+
+
+nav ul li{
+    float: left; list-style: none;background:white;
+}
+
+nav ul li a{
+    text-decoration: none;padding: 3px 0px 3px 30px;
+    font-size: 17px;color:black;font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav ul li ul {
+    display: none;z-index: 1;;
+}
+
+nav ul li:hover > ul{display: block;}
+
+nav {position: relative;height: 40px;line-height: 40px;float: right;}
+
+nav ul li ul {position:absolute;}
+
+nav ul li ul li {float:none;position: relative;width: 240px;left: -120px;width: 200px;text-align: left;}
+
+nav img {width:40px;height: 40px;padding-right: -2px;}
+
+
+.sec1 {width: auto;background-color: #F4F6F3;margin-top: 50px;padding:50px 0;overflow: hidden;}
+.sec1 .bungkus {margin:auto;width: 1200px;}
+.sec1 .kiri {width: 450px;float: left;margin-right: 150px;margin-top: 150px;}
+.sec1 .kanan {width: 600px;float: left;}
+.sec1 .kanan .pct1 img {width: 350px;object-fit: cover;float: left;height: 350px;}
+.sec1 .kanan .pct2 img {width: 200px;height: 200px;object-fit: cover;margin-top: 150px;;margin-left: 20px;}
+.sec1 .kanan .pct3 img {width: 450px;height: 250px;object-fit: cover;margin-left: 40px;margin-top: 20px;}
+.sec1 img {border-radius: 10px;}
+.sec1 .read a{text-decoration: none; color: white;background-color: black;padding: 15px 30px;border-radius: 7px;}
+.sec1 .read {margin-top: 80px;transition: transform 0.5s; }
+.sec1 .read:hover {transform: translateY(-10px);}
+.sec1 .kiri p {line-height: 1.5;color:grey}
+
+
+.sec2 {width: 1200px;margin: auto;padding: 50px 0;overflow: hidden;}
+.sec2 .kiri {width: 550px;float: left;margin-right: 50px;padding-top: 80px;}
+.sec2 .kanan {width: 600px;float: left;}
+.sec2 img {width: 600px;height: 400px;object-fit: cover;border-radius: 7px;}
+.sec2 h1 {margin-bottom: 30px;}
+.sec2 p {line-height: 1.5;color: grey;}
+
+
+.sec3 {width: auto;background-color: #F4F6F3;padding: 50px 0;overflow: hidden;}
+.sec3 .bungkus {width: 1200px;margin: auto;}
+.sec3 .bungkus .kiri{width: 550px;margin-right: 50px;float: left;}
+.sec3 .bungkus .kanan{width: 550px;float: left;}
+.sec3 .bungkus h1{margin-bottom: 30px;}
+.sec3 p {line-height: 1.5;color: grey;}
+
+
+
+
+.sec7 {width: auto;background-color: black;padding: 50px 0;color: white;height: 300px;}
+.sec7 .sec7_dalem {margin: auto;width: 1200px;overflow: hidden;}
+.sec7 img {width: 40px;height: 40px;float: left;margin-right: 15px;}
+.sec7 .custo {margin: 30px 0;float: left;width: 343px;background-color: black;border-radius: 6px;}
+.sec7 .custo_2 {margin: 30px 60px;float: left;width: 343px;background-color: black;border-radius: 6px;background-color: black;color: white;}
+.sec7 .bintang {margin: 20px 0;color: orange;}
+.sec7 .custo p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .custo_2 p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .bot {margin: 30px 0;cursor: pointer;}
+.sec7 .dpn {font-size: 15px;}
+.sec7 .blkg {font-size: 12px;}
+.sec7 .garis {border: 0.3px solid grey;width: 40px;margin-top: 10px;}
+.sec7 .aboutus img {border-radius: 100%;width: 30px;height: 30px;float: left;margin-right: 15px;}
+.sec7 .aboutus img:hover {width: 40px;height: 40px;}
+.sec7 .custo input {margin: 25px 0;padding: 10px 30px 10px 10px;color: grey;border-radius: 5px;}
+.sec7 .custo .join a {background-color: white;text-decoration: none;padding: 10px 20px;margin-left: 5px;;border-radius: 5px;}
+
+
+.footer .dlm {text-align:center;background-color:black;color: white;font-size: 15px;padding: 15px 0;width: 1200px;border-top: 0.5px solid grey;margin: auto;}
+.footer {background-color:black;width: auto;}
+

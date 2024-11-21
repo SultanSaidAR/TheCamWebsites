@@ -1,0 +1,62 @@
+.top {width: 1200px;margin: auto;padding-top: 50px;height: 30px;}
+.logo {float: left;width: 300px;}
+.top .logo a {font-size: 30px;text-decoration: none;color: black;}
+
+* {padding: 0;margin: 0;}
+
+nav ul li{
+    float: left; list-style: none;background:white;
+}
+
+nav ul li a{
+    text-decoration: none;padding: 3px 0px 3px 30px;
+    font-size: 17px;color:black;font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav ul li ul {
+    display: none;z-index: 1;;
+}
+
+nav ul li:hover > ul{display: block;}
+
+nav {position: relative;height: 40px;line-height: 40px;float: right;}
+
+nav ul li ul {position:absolute;}
+
+nav ul li ul li {float:none;position: relative;width: 240px;left: -120px;width: 200px;text-align: left;}
+
+nav img {width:40px;height: 40px;padding-right: -2px;}
+
+
+
+.container {width: auto;background-color: #F4F6F3;margin-top: 50px;padding: 50px;}
+.container .content {width: 1100px;margin: auto;background-color: white;padding: 50px 40px;}
+.container .login {float: left;margin-right: 20px;background-color: black;color: white;padding: 5px 15px;border-radius: 5px;}
+.container .remember {padding: 5px 15px;}
+.container input {padding: 10px 900px 10px 5px;margin-bottom: 10px;}
+.container p {float: left;}
+.container .user{overflow: hidden;}
+.container .log {overflow: hidden;margin-bottom: 10px;}
+.container h1 {margin-bottom: 10px;}
+.container h2 {margin-bottom: 10px;}
+.container .checkbox {float: left;margin-right: 5px;margin-top: 7px;}
+
+.sec7 {width: auto;background-color: black;padding: 50px 0;color: white;height: 300px;}
+.sec7 .sec7_dalem {margin: auto;width: 1200px;overflow: hidden;}
+.sec7 img {width: 40px;height: 40px;float: left;margin-right: 15px;}
+.sec7 .custo {margin: 30px 0;float: left;width: 343px;background-color: black;border-radius: 6px;}
+.sec7 .custo_2 {margin: 30px 60px;float: left;width: 343px;background-color: black;border-radius: 6px;background-color: black;color: white;}
+.sec7 .bintang {margin: 20px 0;color: orange;}
+.sec7 .custo p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .custo_2 p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .bot {margin: 30px 0;cursor: pointer;}
+.sec7 .dpn {font-size: 15px;}
+.sec7 .blkg {font-size: 12px;}
+.sec7 .garis {border: 0.3px solid grey;width: 40px;margin-top: 10px;}
+.sec7 .aboutus img {border-radius: 100%;width: 30px;height: 30px;float: left;margin-right: 15px;}
+.sec7 .aboutus img:hover {width: 40px;height: 40px;}
+.sec7 .custo input {margin: 25px 0;padding: 10px 30px 10px 10px;color: grey;border-radius: 5px;}
+.sec7 .custo .join a {background-color: white;text-decoration: none;padding: 10px 20px;margin-left: 5px;;border-radius: 5px;color: black;}
+
+
+.footer .dlm {text-align:center;background-color:black;color: white;font-size: 15px;padding: 15px 0;width: 1200px;border-top: 0.5px solid grey;margin: auto;}
+.footer {background-color:black;width: auto;}

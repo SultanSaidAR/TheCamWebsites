@@ -1,0 +1,97 @@
+* {padding: 0;margin: 0;}
+
+.top {width: 1200px;margin: auto;padding-top: 50px;height: 30px;}
+.logo {float: left;width: 300px;}
+.top .logo a {font-size: 30px;text-decoration: none;color: black;}
+
+
+nav ul li{
+    float: left; list-style: none;background:white;
+}
+
+nav ul li a{
+    text-decoration: none;padding: 3px 0px 3px 30px;
+    font-size: 17px;color:black;font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav ul li ul {
+    display: none;z-index: 1;;
+}
+
+nav ul li:hover > ul{display: block;}
+
+nav {position: relative;height: 40px;line-height: 40px;float: right;}
+
+nav ul li ul {position:absolute;}
+
+nav ul li ul li {float:none;position: relative;width: 240px;left: -120px;width: 200px;text-align: left;}
+
+nav img {width:40px;height: 40px;padding-right: -2px;}
+
+.container {width: auto;background-color: #fafafa ;margin-top: 50px;padding:40px 0;}
+.container .bungkus {width: 1200px;margin: auto;overflow: hidden;}
+.container .kiri {width: 800px;float: left;}
+.container .kanan {width: 320px;float: right;padding: 20px;background-color: white;}
+.container .right {float: right;}
+.container .left {float: left;}
+.container .pala {overflow: hidden;}
+.container .galeri .fotosec3 {width: 240px;float: left;margin:30px 0;}
+.container .galeri .fotosec3_2  {width: 240px;float: left;margin:30px 30px;}
+.container .galeri img{width: 240px;height: 260px;}
+.container .galeri .jud {margin-top: 20px;}
+.container .galeri .price a {text-decoration: line-through;color: grey;}
+.container .left .judul {margin-top: 25px;margin-bottom: 15px;}
+.container .galeri .add {background-color: black;color: white;padding: 8px 15px;text-align: center;width: 90px;border-radius: 5px;margin-top: 20px;}
+.container .galeri .add a {text-decoration: none;color: white;font-weight: 600;}
+.container .galeri .bintang {color: orange;}
+.container .kanan .popular img {width: 50px;height: 50px;float: left;margin-right: 10px;}
+.container .kanan .popular .isi{overflow: hidden;margin-bottom: 20px;margin-top: 20px;}
+.container .kanan .popular .isi p{margin-top: 15px;font-size: 17px;}
+.container .kanan .popular .isi a {text-decoration: none;color: black;}
+.container .kanan .looking input {padding: 6px 90px 6px 5px;}
+.container .looking {margin-top: 50px;}
+.container .kanan .looking a {text-decoration: none;color: white;background-color: black;padding: 1px;padding-bottom: 4px;}
+.container .follow img {width: 60px;height: 60px;float: left;border-radius: 3px;margin-right: 5px;transform: opacity 0.5s;}
+.container .follow .sosmed{overflow: hidden;margin-top: 10px;}
+.container .follow{margin-top: 50px;}
+.container .filter {margin-top: 50px;}
+.container .galeri {overflow: hidden;}
+
+.container .page {text-align: center;margin-bottom: 20px;}
+.container .page a {padding: 10px 15px;text-decoration: none;}
+.container .page a.active {background-color: black;color: white;}
+
+.container .kanan .border {border: 5px solid black;margin-top: 10px;}
+.container .kanan .inp input {float:left;width: 100px;height: 30px;}
+.container .kanan .inp .inpl {float: left;}
+.container .kanan .inp .inpr {float: right;}
+.container .kanan .inp {margin-top: 10px;}
+.container .follow img:hover {opacity:0.8;}
+
+.container .galeri img {object-fit: cover;}
+
+.container .right select {padding: 7px 15px;margin-right: 20px;}
+
+.follow .sosmed img {object-fit: cover;}
+
+.jud ,.bintang, .price {cursor: pointer;}
+
+.sec7 {width: auto;background-color: black;padding: 50px 0;color: white;height: 300px;}
+.sec7 .sec7_dalem {margin: auto;width: 1200px;overflow: hidden;}
+.sec7 img {width: 40px;height: 40px;float: left;margin-right: 15px;}
+.sec7 .custo {margin: 30px 0;float: left;width: 343px;background-color: black;border-radius: 6px;}
+.sec7 .custo_2 {margin: 30px 60px;float: left;width: 343px;background-color: black;border-radius: 6px;background-color: black;color: white;}
+.sec7 .bintang {margin: 20px 0;color: orange;}
+.sec7 .custo p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .custo_2 p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .bot {margin: 30px 0;cursor: pointer;}
+.sec7 .dpn {font-size: 15px;}
+.sec7 .blkg {font-size: 12px;}
+.sec7 .garis {border: 0.3px solid grey;width: 40px;margin-top: 10px;}
+.sec7 .aboutus img {border-radius: 100%;width: 30px;height: 30px;float: left;margin-right: 15px;}
+.sec7 .aboutus img:hover {width: 40px;height: 40px;}
+.sec7 .custo input {margin: 25px 0;padding: 10px 30px 10px 10px;color: grey;border-radius: 5px;}
+.sec7 .custo .join a {background-color: white;text-decoration: none;padding: 10px 20px;margin-left: 5px;;border-radius: 5px;}
+
+
+.footer .dlm {text-align:center;background-color:black;color: white;font-size: 15px;padding: 15px 0;width: 1200px;border-top: 0.5px solid grey;margin: auto;}
+.footer {background-color:black;width: auto;}

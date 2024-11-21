@@ -1,0 +1,131 @@
+* {padding: 0;margin: 0;font-family: Arial, Helvetica, sans-serif;}
+
+.top {width: 1200px;margin: auto;padding-top: 50px;height: 30px;}
+.logo {float: left;width: 300px;}
+.top .logo a {font-size: 30px;text-decoration: none;color: black;}
+
+
+nav ul li{
+    float: left; list-style: none;background:white;
+}
+
+nav ul li a{
+    text-decoration: none;padding: 3px 0px 3px 30px;
+    font-size: 17px;color:black;font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav ul li ul {
+    display: none;z-index: 1;;
+}
+
+nav ul li:hover > ul{display: block;}
+
+nav {position: relative;height: 40px;line-height: 40px;float: right;}
+
+nav ul li ul {position:absolute;}
+
+nav ul li ul li {float:none;position: relative;width: 240px;left: -120px;width: 200px;text-align: left;}
+
+nav img {width:40px;height: 40px;padding-right: -2px;}
+
+.sec1 {width: 1200px;margin: auto;position: relative;}
+.foto {width: 1200px;}
+.foto img{width: 1200px;height: 500px;}
+.foto .slogan {position: absolute;height: auto;
+    color:white;bottom: 59%;left: 22%; ;font-size: 50px;text-align: center;
+padding: 6px;}
+.foto .b{position: absolute;height: auto;
+    color:white;bottom: 50%;left: 39%; ;font-size: 25px;text-align: center;
+padding: 6px;}
+.foto .beli a{position: absolute;height: auto;
+        color:white;bottom: 40%;left: 44%; ;font-size: 20px;text-align: center;
+    padding: 10px 20px;background-color: black;text-decoration: none;}
+
+
+.sec2 {margin: auto;width: 1200px;display: flex;}
+.fotosec2 {width: 380px;;float: left;margin-top: 15px;margin-bottom: 50px;position: relative;height: 300px;}
+.fotosec2 img {width: 100%;height: 100%;object-fit: cover; }
+.fotosec2_1 {width: 380px;float:  left;margin: 15px 30px;position: relative;margin-bottom: 50px;height: 300px;}
+.fotosec2_1 img {width: 100%;height:100%;object-fit: cover;}
+
+.sec2 .fotosec2 .sub {position: absolute;font-size: 25px;;
+top: 50%;left: 50%;text-align: center;color: white;padding: 7px;transform: translate(-50%, -50%);text-align: center;
+line-height: 1.2;  }
+.sec2 .fotosec2_1 .sub {position: absolute;font-size: 25px;;
+    top: 50%;left: 50%;text-align: center;color: white;padding: 7px;transform: translate(-50%, -50%);text-align: center;
+    line-height: 1.2;  }
+
+            
+.sec2 .fotosec2  .shopnow a{position:absolute;font-size: 17px;transform: translate(-50%, -50%);text-align: center;line-height: 1.2; 
+top:60% ;left:50%;text-align: center;color: white;padding: 7px;text-decoration: none;}
+.sec2 .fotosec2_1  .shopnow a{position:absolute;font-size: 17px;transform: translate(-50%, -50%);text-align: center;line-height: 1.2; 
+    top:60% ;left:50%;text-align: center;color: white;padding: 7px;text-decoration: none;}
+
+.sec2 .fotosec2_1 .shopnow a b .arrow {color: yellow;}
+
+.sec3 {margin: auto;width: 1200px;overflow: hidden;}
+.sec3 .bawah .fotosec3 {width: 370px;float: left;margin-top: 15px;margin-bottom: 15px;position: relative;}
+.sec3 .bawah .fotosec3_2 {width: 370px;float:  left;margin: 15px 45px;position: relative;}
+.sec3 .bawah .fotosec3 img{width: 100%;height: 350px; object-fit: cover;}
+.sec3 .bawah .fotosec3_2 img{width: 100%;height: 350px; object-fit: cover;}
+.sec3 .fotosec3 .jud , .bintang , .price{cursor: pointer;}
+.sec3 .fotosec3_2 .jud , .bintang , .price{cursor: pointer;}
+
+.sec3 .atas .kanan a {float: right;background-color: black;color: white;padding: 8px 20px;border-radius: 4px;text-decoration: none;}
+.sec3 .atas .kiri {float: left;font-size: 25px}
+.sec3 .atas {margin-top: 25px;}
+.sec3 .bawah .price a{text-decoration: line-through;color: silver;margin-top: 20px;}
+.sec3 .bawah .jud {font-size: 18px;}
+.sec3 .bawah .bintang {color: orange;}
+.sec3 .bawah .jud .b {margin-top: 50px;}
+
+.sec4 {width: auto;background-color: #F4F6F3;margin: 50px 0;}
+.sec4 .sec4dalem {margin: auto;width: 1200px;overflow: hidden;padding: 30px 0;font-size: 17px;}
+.sec4 .sec4dalem .kiri {float: left;width: 400px;text-align: center;padding: 30px 0;font-size: 17px;}
+.sec4 .sec4dalem .tengah {float: left;width: 400px;text-align: center;padding: 30px 0;font-size: 17px;}
+.sec4 .sec4dalem .kanan {float: left;width: 400px;text-align: center;padding: 30px 0;font-size: 17px;}
+.sec4 .sec4dalem img {width: 50px;height: 50px;margin-bottom: 15px;}
+.sec4 b {font-size: 25px;}
+
+.sec5 {margin: auto;width: 1200px;overflow: hidden;}
+.sec5 .kanan {width: 550px;float: right;margin: 50px 0px 50px 50px;}
+.sec5 .kiri {width: 549px;float: left;margin: 50px 50px 50px 0px;padding-top: 50px;}
+.sec5 img {width: 550px;height: 450px;object-fit: cover;}
+.sec5 .c p {font-size: 20px;margin-bottom: 17px;}
+.sec5 h1 {font-size: 30px;}
+.sec5 h1 {margin-bottom: 30px;}
+.sec5 p {line-height: 1.5em;}
+.sec5 a b{text-align: center;text-decoration: none;color: white;background-color: black;padding: 7px 15px;border-radius: 5px;}
+
+
+.sec6 {width: auto;background-color: #F4F6F3;padding: 50px 0;}
+.sec6 .sec6_dalem {margin: auto;width: 1200px;;overflow: hidden;}
+.sec6 img {border-radius: 100%;width: 50px;height: 50px;float: left;margin-right: 15px;}
+.sec6 .custo {padding: 20px;margin: 30px 0;float: left;width: 343px;background-color: white;border-radius: 6px;}
+.sec6 .custo_2 {padding: 25px;margin: 30px 20px;float: left;width: 343px;background-color: white;border-radius: 6px;background-color: black;color: white;}
+.sec6 .bintang {margin: 20px 0;color: orange;}
+.sec6 .custo p{line-height: 1.5em;margin: 20px 0;}
+.sec6 .custo_2 p{line-height: 1.5em;margin: 20px 0;}
+.sec6 .bot {margin: 30px 0;}
+.sec6 .hat {text-align: center;margin-top: 40px;margin-bottom: 30px;}
+.sec6 .dpn {font-size: 20px;}
+
+.sec7 {width: auto;background-color: black;padding: 50px 0;color: white;height: 300px;}
+.sec7 .sec7_dalem {margin: auto;width: 1200px;overflow: hidden;}
+.sec7 img {width: 40px;height: 40px;float: left;margin-right: 15px;}
+.sec7 .custo {margin: 30px 0;float: left;width: 343px;background-color: black;border-radius: 6px;}
+.sec7 .custo_2 {margin: 30px 60px;float: left;width: 343px;background-color: black;border-radius: 6px;background-color: black;color: white;}
+.sec7 .bintang {margin: 20px 0;color: orange;}
+.sec7 .custo p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .custo_2 p{line-height: 1.5em;margin: 20px 0;}
+.sec7 .bot {margin: 30px 0;cursor: pointer;}
+.sec7 .dpn {font-size: 15px;}
+.sec7 .blkg {font-size: 12px;}
+.sec7 .garis {border: 0.3px solid grey;width: 40px;margin-top: 10px;}
+.sec7 .aboutus img {border-radius: 100%;width: 30px;height: 30px;float: left;margin-right: 15px;}
+.sec7 .aboutus img:hover {width: 40px;height: 40px;}
+.sec7 .custo input {margin: 25px 0;padding: 10px 30px 10px 10px;color: grey;border-radius: 5px;}
+.sec7 .custo .join a {background-color: white;text-decoration: none;padding: 10px 20px;margin-left: 5px;;border-radius: 5px;}
+
+
+.footer .dlm {text-align:center;background-color:black;color: white;font-size: 15px;padding: 15px 0;width: 1200px;border-top: 0.5px solid grey;margin: auto;}
+.footer {background-color:black;width: auto;}
